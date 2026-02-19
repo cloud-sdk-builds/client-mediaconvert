@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-mediaconvert`](https://www.npmjs.com/package/@aws-sdk/client-mediaconvert/v/3.992.0).
+[`@aws-sdk/client-mediaconvert`](https://www.npmjs.com/package/@aws-sdk/client-mediaconvert/v/3.993.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediaconvert@3.992.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediaconvert@3.993.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-QDx1pk3bbjZnTH3Sf2/jjnYk5JIxONqlS0/JvePAfxrL5eSkFCMgUrrCb5UZktqD
+sha384-Nq3jqFGVflTYuzdYA7ULa8o6w17EpOwwKmpoIUEyay8JPP/AzAtPU8e8UScD/Zop
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-mediaconvert": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediaconvert@3.992.0/index.min.mjs"
+            "@aws-sdk/client-mediaconvert": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediaconvert@3.993.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediaconvert@3.992.0/index.min.mjs": "sha384-QDx1pk3bbjZnTH3Sf2/jjnYk5JIxONqlS0/JvePAfxrL5eSkFCMgUrrCb5UZktqD"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediaconvert@3.993.0/index.min.mjs": "sha384-Nq3jqFGVflTYuzdYA7ULa8o6w17EpOwwKmpoIUEyay8JPP/AzAtPU8e8UScD/Zop"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-mediaconvert": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediaconvert@3.992.0/index.min.mjs"
+                        "@aws-sdk/client-mediaconvert": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediaconvert@3.993.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediaconvert@3.992.0/index.min.mjs": "sha384-QDx1pk3bbjZnTH3Sf2/jjnYk5JIxONqlS0/JvePAfxrL5eSkFCMgUrrCb5UZktqD"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediaconvert@3.993.0/index.min.mjs": "sha384-Nq3jqFGVflTYuzdYA7ULa8o6w17EpOwwKmpoIUEyay8JPP/AzAtPU8e8UScD/Zop"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.992.0`)
+* Always pin to a specific version (`@3.993.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-mediaconvert/blob/refs/tags/3.992.0/LICENSE
+https://github.com/cloud-sdk-builds/client-mediaconvert/blob/refs/tags/3.993.0/LICENSE
 ```
 
 ---
